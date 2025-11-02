@@ -7,6 +7,7 @@ function Header() {
   const items = useSelector(selectItems);
   const location = useLocation();
   const tamarrotan= "hello tamar!"
+const tamar2="good luck!!!!!"
 
   return (
     <header className="py-4 bg-blue-600 text-white">
