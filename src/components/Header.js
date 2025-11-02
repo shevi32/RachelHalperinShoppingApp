@@ -15,6 +15,7 @@ const tamar2="good luck!!!!!"
       <div className="container mx-auto flex justify-between items-center px-4">
         <h1 className="text-2xl font-bold">Naama & Tovi</h1>
         <h1 className="text-2xl font-bold">Shopping App</h1>
+        <h1 className >hello </h1>
         <h1>{tamarrotan}</h1>
         <nav className="flex space-x-6">
           <Link to="/" className={`nav-link ${location.pathname === '/' ? 'font-bold' : ''}`}>
