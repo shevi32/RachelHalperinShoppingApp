@@ -11,7 +11,7 @@ function App() {
     <Provider store={store}>
       <Router>
         <div className="app-container">
-          <Header />
+          <Header string="michal send by props"/>
           <Routes>
             <Route path="/" element={<ShoppingList />} />
             <Route path="/order" element={<OrderDetails />} />
